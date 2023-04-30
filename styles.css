@@ -1,0 +1,12 @@
+body { font-family: Courier, monospace, Sans-serif; font-size: 1.1rem; text-align: center; }
+.grey { color: #919191; }
+#rhythm_exercise table { margin: 150px auto 70px; font-size: 50px; }
+#rhythm_exercise table tr td { padding: 0 14px; width: 50px; height: 66px; }
+h2 { margin-bottom: 10px; }
+#rhythm_exercise_settings_change_pattern button { font-size: 1.2rem; padding: 6px 15px; margin: 0 10px; background-color: #7555d1; border: none; border-radius: 4px; color: #fff; cursor: pointer; }
+#rhythm_exercise_settings_change_pattern button:hover { background-color: #5a3da6; }
+#rhythm_exercise_settings_difficulty { margin-top: 16px; }
+
+@media (prefers-color-scheme: dark) {
+	body { background: #212424; color: #fff; }
+}

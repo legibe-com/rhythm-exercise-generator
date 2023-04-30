@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rhythm training</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="rhythm_exercise.js" defer></script>
+</head>
+<body>
+
+	<div id="rhythm_exercise">
+		<table>
+			<tr id="js_rhythm_exercise_hands">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td class="grey">&</td>
+				<td>2</td>
+				<td class="grey">&</td>
+				<td>3</td>
+				<td class="grey">&</td>
+				<td>4</td>
+				<td class="grey">&</td>
+			</tr>
+			<tr id="js_rhythm_exercise_feet">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="rhythm_exercise_settings_change_pattern">
+		<h2>Change pattern:</h2>
+		<button onclick="rhythmExercisePopulateTable('hands');">Hands</button>
+		<button onclick="rhythmExercisePopulateTable('feet');">Feet</button>
+		<button onclick="rhythmExercisePopulateTable('hands'); rhythmExercisePopulateTable('feet');">Both</button>
+	</div>
+	<div id="rhythm_exercise_settings_difficulty">
+		<h2>Difficulty:</h2>
+		<select>
+			<option value="1">Easy</option>
+			<option value="2">Intermediate</option>
+			<option value="3">Difficult</option>
+		</select>
+	</div>
+
+</body>
+</html>
